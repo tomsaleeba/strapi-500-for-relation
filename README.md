@@ -16,6 +16,8 @@ with sqlite.
       # this script isn't bulletproof so if you have timing issues, just run the
       # commands separately.
       ```
+  1. You can `control+c` to kill strapi and the docker container. You can ignore
+     the webpage that is launched to create an admin user.
 
 Expected: I think the server should respond with a 400 response because the
 client has passed invalid data.
